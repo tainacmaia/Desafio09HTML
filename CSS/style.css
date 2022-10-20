@@ -5,8 +5,18 @@
     transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1200px){
     td{
         display: block;
+    }
+}
+
+@media screen and (max-width:550px){
+    td{
+        display: block;
+    }
+    img{
+        width: 360px;
+        height: 115px;
     }
 }
