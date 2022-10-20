@@ -1,6 +1,12 @@
-table{
-    left: 20%;
-    top: 15%;
-    right: 20%;
-    position: absolute;
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width:1000px){
+    td{
+        display: block;
+    }
 }
